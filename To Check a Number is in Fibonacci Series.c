@@ -2,6 +2,16 @@
 #include <stdlib.h>
 #include <math.h>
 
+/*
+This program accepts N integers as input and prints sum of numbers 
+which are present in fibonacci series
+Input :
+5
+4 13 5 23 2
+Output :
+20 (13+5+2)
+*/
+
 int main()
 {
     long long int x,n,i,f,sum=0;
